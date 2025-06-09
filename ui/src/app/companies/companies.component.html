@@ -1,0 +1,27 @@
+<div class="main-container">
+  <button (click)="addCompany()" class="add-btn">Add new</button>
+
+  <table class="table-container">
+    <thead>
+    <tr class="row">
+      <th class="row__cell row__cell--header">Name</th>
+      <th class="row__cell row__cell--header">Ticker</th>
+      <th class="row__cell row__cell--header">Exchange</th>
+      <th class="row__cell row__cell--header">ISIN</th>
+      <th class="row__cell row__cell--header">Website</th>
+    </tr>
+    </thead>
+    <tbody>
+      @for (company of companies$ | async; track company) {
+        <tr class="row row--data">
+          <td class="row__cell row__cell--data">{{ company.name }}</td>
+          <td class="row__cell row__cell--data">{{ company.ticker }}</td>
+          <td class="row__cell row__cell--data">{{ company.exchange }}</td>
+          <td class="row__cell row__cell--data">{{ company.isin }}</td>
+          <td class="row__cell row__cell--data"><a [href]="company.website" target="_blank">{{ company.website }}</a></td>
+          <td class="row__cell row__cell--data"><button (click)="edit(company)">Edit</button></td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

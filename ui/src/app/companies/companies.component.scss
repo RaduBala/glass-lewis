@@ -1,0 +1,45 @@
+:host {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px;
+
+    .add-btn {
+      margin-bottom: 20px;
+
+      height: 50px;
+      width: 100px;
+    }
+
+    .table-container {
+      border-collapse: collapse;
+      border: 3px solid #BABABA;
+      margin-bottom: 10px;
+
+      .row {
+        &__cell {
+          border: 1px solid #BABABA;
+
+          &--header {
+            font-size: 16px;
+            padding: 1em 2em 1em 2em;
+          }
+
+          &--data {
+            font-size: 14px;
+            text-align: center;
+            padding: 0.5em 1em 0.5em 1em;
+          }
+        }
+
+        &--data:hover {
+          background-color: #BABABA;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

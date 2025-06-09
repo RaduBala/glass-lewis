@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>Create Company</h1>
+
+<div mat-dialog-content>
+  <div [formGroup]="formGroup" class="inputs-container">
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input matInput type="text" autocomplete="off" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Ticker</mat-label>
+      <input matInput formControlName="ticker" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Exchange</mat-label>
+      <input matInput formControlName="exchange" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>ISIN</mat-label>
+      <input matInput formControlName="isin" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Website</mat-label>
+      <input matInput formControlName="website" />
+    </mat-form-field>
+  </div>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-flat-button color="primary" [disabled]="formGroup.invalid" (click)="submit()">Save</button>
+</div>

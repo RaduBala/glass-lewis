@@ -1,0 +1,14 @@
+D:\workspace\test\Template\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\workspace\test\Template\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+D:\workspace\test\Template\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\workspace\test\Template\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+D:\workspace\test\Template\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
